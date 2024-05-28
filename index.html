@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Notebooks</h2>
+                <button id="addNotebookBtn">+</button>
+            </div>
+            <ul class="notebook-list">
+                <!-- Notebooks will be dynamically added here -->
+            </ul>
+        </aside>
+        <main class="main-content">
+            <header class="top-bar">
+                <input type="text" placeholder="Search notes..." id="searchBar">
+                <button id="settingsBtn">⚙️</button>
+            </header>
+            <div class="notes-container">
+                <button id="addNoteBtn">Add Note</button>
+                <div class="notes-list">
+                    <!-- Notes will be dynamically added here -->
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
